@@ -36,7 +36,7 @@ public class ProductPriceCalculation {
 				totalAmount=totalAmount+(((productQuantity-breadDiscount)*0.80)+(breadDiscount*0.40));
 			}
 			if(productQuantity<=breadDiscount) {
-				totalAmount=totalAmount+(productPrice*0.40);
+				totalAmount=totalAmount+(productQuantity*0.40);
 			}
 		}
 		else {
